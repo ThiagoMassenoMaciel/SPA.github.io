@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA UNIVERSE</title>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="shortcut icon" href="./img/i.svg" type="svg">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <img id="i1" src="./img/mountains-universe-1.png" alt="Background 1 "  class="i "  />
+  <img id="i2" src="./img/mountains-universe-2.png" alt="Background 2 "  class="i d"  />
+  <img id="i3" src="./img/mountains-universe-3.png" alt="Background 3 "  class="i d"  />
+
+  <div id="app">
+    <nav>
+      <ul>
+        <li>
+          <img src="./img/i.svg" alt="Logo do site" > 
+        </li>
+        
+        <li>
+          <a 
+          id="link1"
+          href="/"              
+          onclick="route()"   
+          data-changeback="i"      
+          class=" "       
+          data-bold="l">Home</a>
+        </li>
+  
+        <li>
+          <a 
+          id="link2"
+          href="/universo"      
+          onclick="route()"   
+          data-changeback="ii"     
+          class=" "          
+          data-bold="ll">O Universo</a> 
+        </li>
+  
+        <li>
+          <a 
+          id="link3"
+          href="/exploracao"    
+          onclick="route()"   
+          data-changeback="iii"    
+          class=" "           
+          data-bold="lll">Exploração</a>
+        </li>
+      </ul>
+
+    </nav>
+    <section></section>
+  </div>
+
+  <script src="./js/index.js" type="module"></script>
+
+</body>
+</html>

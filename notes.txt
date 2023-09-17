@@ -1,0 +1,76 @@
+This project was build within goal to aplly simple 
+concepts about Single Page Aplication
+Just using Front-end fundamentals 
+
+-JavaScript
+-DOM manipulation
+-Modules
+-DataSet
+- Mapeamento de rotas;
+- Assíncrono e promises;
+- Programação Orientado a objetos;
+- Switch Case ;
+- Object literals ;
+- Factory Mode ;
+
+Trocando o fundo 
+Faltou trocar o bold da letra handle
+
+Version 1.0
+  Just change the image background
+  Porque n troca tambem os pedaço SPA  da aplicação
+
+Version 2.0
+  Just change the image background 
+  Try change the text from link clicked 
+  
+  Porque esta tentativa de criar o file linkClicked.js não deu certo ? 
+    erro 1 : router.js  
+      console.log(`\n event.target.dataset.bold :${L.MetodoQueExecutaValorDataSet[SWAP]} 
+      \n`)
+    erro 2 :  linkClicked.js 
+      const link3 = document.getElementById('#link3')
+
+Version 3.0
+
+  change image 
+  focus link clicked 
+  onpopstate and change img , link at the same time i try not win  
+  
+Uncaught TypeError: Cannot read properties of undefined (reading 'preventDefault')
+    at Router.route (router.js:11:7)
+    at index.js:12:23
+
+    passei ums 40 minutos neste erro 
+
+    ele n consegue ler o data event que veio do ROUTE() quando a pessoa clicar no link 
+
+  maybe this help {https://github.com/devsenexx/eslint-plugin-jsx-a11y/blob/main/docs/rules/anchor-is-valid.md}
+
+    começei as 11h40'                  2h
+    até        13h20
+
+    voltei as 14h45'                   1h30'
+    ajeitei o erro até as 15h15'    
+
+    parei as 16h 55'                   1h40 
+
+    voltei a programar as 17h6         2'
+    pausa da merenda 17h8
+
+    voltei a codar  17h27'             1h30'
+    terminei 19h57'
+
+
+    no dia 16 set  demorei             6h42'
+    no dia 17 faltou ajeitar 2 bugs    1h 
+
+                                       7h42'
+    
+  erro n coloquei calfunction para execurtar as funções route() e handle()  dentro do file router.js
+
+
+
+  
+
+    

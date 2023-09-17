@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --color-text-nav: hsla(240, 7%, 78%, 1);
+  --color-text-nav-clicked : hsla(0, 0%, 100%, 1);
+  --color-text-section-title: hsla(240, 9%, 89%, 1);
+  --color-text-button-hover: hsl(194, 97%, 31%);
+  --color-background-button-hover: hsl(0, 0%, 100%);
+}
+
+body{
+  font-size: 1.6rem;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.bold{
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--color-text-nav-clicked);
+}
+
+.i{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+}
+
+.d{
+  display: none;
+}
+
+
+#app{
+  margin: 4rem 7.2rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+
+  color: var(--color-text-nav);
+}
+
+li img {
+  width: 4.2rem;
+  height: 5.0rem;
+}
+
+nav{
+  margin: 4rem auto 7.2rem 4rem;
+}
+
+ul{
+  display: flex;
+  gap: 3.2rem;
+  flex-direction: row;
+  text-align: center;
+  
+  align-items: center;
+}
+
+#home{
+  padding: 17.2rem 44.0rem;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  align-items: center;
+}
+
+#home h1{
+  width: 39.9rem;
+  height: 6rem;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  color: var(--color-text-section-title);
+
+}
+
+#home button{
+  color: var(--color-text-nav-clicked);
+  background-color: transparent;
+
+  padding: 1.2rem 3.2rem;
+
+  justify-content: center;
+
+  align-items: center;
+  gap: .8rem;
+
+  border-radius: 5px;
+  border: 2px solid #FFF;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+}
+
+#home button:hover{
+  color: var(--color-text-button-hover);
+  background-color: var(--color-background-button-hover)
+}
+
+#universo , #exploracao{
+  margin: 6rem 10.2rem  auto auto;
+  padding-left: 9.2rem;
+}
+
+h1{
+  color: var(--color-text-section-title);
+
+  font-family: inherit;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+  
+}
+
+p{
+  margin-top: 1.6rem;
+
+  width: 64.8rem;
+  height: 20.3rem;
+
+  color: var(--color-text-section-title);
+
+  font-family: inherit;
+  font-size: 1.8rem ;
+  font-weight: 400;
+  line-height: 2.88rem;
+
+}
+
+#exploracao p{
+  height: 17.4rem;
+}
+
+
+#error{
+  background-color: hsl(303, 100%, 50%);
+
+  padding: 6rem;
+
+  text-align: center;
+
+  color: var(--color-text-nav-clicked);
+
+  border-radius: 6rem;
+}
+
