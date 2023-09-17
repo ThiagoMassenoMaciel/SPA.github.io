@@ -7,7 +7,6 @@
 # PreView this Project 
 
 
-
 # Click to see my project [over here](https://thiagomassenomaciel.github.io/)
 
 
