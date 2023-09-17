@@ -1,5 +1,6 @@
 # ThiagoMassenoMaciel.github.io
-# PJ-11 Used simples concepts about Single Page Aplication with:
+# Project 11 
+# Used simples concepts about Single Page Aplication (SPA) with:
 ## ▶️ JavaScript
 ## ▶️ Html
 ## ▶️ Css
